@@ -43,7 +43,7 @@ def getTommorowAssignmentMessage():
         message = assignment_str
         return message
 
-assignment_channel_name = "#0-assignment"
+assignment_channel_name = "#01_0000_課題一覧"
 
 #   明日の課題を投稿する
 #   @param flag 課題が無かった場合，何もしないか
