@@ -17,13 +17,14 @@ if is_first:
         bot_username = user_info['BOT_USERNAME']
         bot_password = user_info['BOT_PASSWORD']
         api_token = user_info['API_TOKEN']
+        page_name = user_info['PAGE_NAME']
     else:
         bot_username = os.environ['BOT_USERNAME']
         bot_password = os.environ['BOT_PASSWORD']
         api_token = os.environ['API_TOKEN']
+        page_name = os.environ['PAGE_NAME']
 
     session = wiki.MediaWikiSession(API_URL, bot_username, bot_password)
-    page_name = 'EEIC2019/課題一覧'
 
     # slackBotとassingment_notify_mgrを用意
     # botを別スレッドでスタート
