@@ -1,4 +1,4 @@
-# EEIC2019 Bot
+# EEIC2020 Bot
 
 [EEIC](http://www.ee.t.u-tokyo.ac.jp/)2019のためのBotです。
 
