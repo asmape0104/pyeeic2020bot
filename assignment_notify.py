@@ -150,6 +150,7 @@ def parseAssignmentList(assignment_list):
     for subject in assignment_list:
         s += "*" + subject + "*\n"
         for index, assignment in enumerate(assignment_list[subject]):
+            print(assignment)
             s += str(index + 1) + ". " + assignment['assignment_title'] + "\n"
             s += "   期日 " + str(assignment['deadline_day']) + "\n"
             s += "   期限 " + assignment['deadline_detail'] + "\n"

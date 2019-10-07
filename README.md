@@ -2,6 +2,9 @@
 
 [EEIC](http://www.ee.t.u-tokyo.ac.jp/)2019のためのBotです。
 
+## 参考資料
+https://qiita.com/akabei/items/ec5179794f9e4e1df203
+
 以下、主にEEIC2019のためのREADME。
 
 ## 使い方
